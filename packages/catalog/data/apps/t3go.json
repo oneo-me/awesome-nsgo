@@ -30,10 +30,6 @@
 	"icon": {
 		"file": "t3go.webp"
 	},
-	"provisional": [
-		"icon",
-		"screenshot"
-	],
 	"screenshot": "t3go.webp",
 	"added": "2026-11-13T02:25:48Z"
 }
