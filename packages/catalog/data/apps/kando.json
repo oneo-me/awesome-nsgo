@@ -1,0 +1,31 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "kando",
+	"name": "Kando",
+	"author": "yldm-tech",
+	"kind": "go",
+	"platforms": ["mac", "win", "linux"],
+	"category": "EducationalApplication",
+	"group": "media",
+	"url": "https://github.com/yldm-tech/Kando",
+	"repo": "yldm-tech/Kando",
+	"summary": {
+		"en": "Learn a language from videos with subtitles transcribed on your computer and translated by AI.",
+		"zh-CN": "看外语视频学语言：本机转写语音，AI 翻译成双语字幕。",
+		"zh-TW": "看外語影片學語言：在本機轉寫語音，由 AI 翻譯成雙語字幕。",
+		"ja": "外国語の動画で語学学習。音声を手元で文字起こしし、AI で二か国語字幕に翻訳。",
+		"ko": "외국어 영상으로 언어 학습. 음성을 내 컴퓨터에서 받아 적고 AI로 이중 언어 자막을 만듭니다."
+	},
+	"description": {
+		"en": "A desktop app for learning a language from videos, written in Go with each platform's native views drawn through NSGo. Paste a YouTube or Bilibili link or drop a video file: it downloads with yt-dlp, transcribes on your computer with whisper.cpp, translates each line through an OpenAI-compatible model and plays the video with both lines on screen, with a list of lines to search, line-by-line looping and resume. Libraries are folders of ordinary files. The interface is in English, Simplified Chinese, Traditional Chinese, Japanese and Korean. Ported from MyGo to NSGo.",
+		"zh-CN": "借助外语视频学语言的桌面应用，用 Go 编写，通过 NSGo 绘制各平台的原生视图。粘贴 YouTube 或 Bilibili 链接，或拖入视频文件，它用 yt-dlp 下载，在本机用 whisper.cpp 转写语音，再通过 OpenAI 兼容模型逐句翻译，播放时原文与译文同屏显示，还能搜索字幕列表、单句循环、从上次停下的地方续播。资料库就是普通文件组成的文件夹。界面支持英文、简体中文、繁体中文、日文和韩文。由 MyGo 移植到 NSGo。",
+		"zh-TW": "透過外語影片學語言的桌面應用程式，以 Go 撰寫，透過 NSGo 繪製各平台的原生視圖。貼上 YouTube 或 Bilibili 連結，或拖入影片檔，它以 yt-dlp 下載，在本機用 whisper.cpp 轉寫語音，再透過 OpenAI 相容模型逐句翻譯，播放時原文與譯文同時顯示在畫面上，還能搜尋字幕列表、單句循環、從上次停下的地方續播。資料庫就是一般檔案組成的資料夾。介面支援英文、簡體中文、繁體中文、日文和韓文。由 MyGo 移植到 NSGo。",
+		"ja": "外国語の動画で語学を学ぶデスクトップアプリ。Go で書かれ、各プラットフォームのネイティブビューを NSGo で描きます。YouTube や Bilibili のリンクを貼るか動画ファイルをドロップすると、yt-dlp でダウンロードし、whisper.cpp で手元のコンピューター上で文字起こしし、OpenAI 互換モデルで一行ずつ翻訳して、原文と訳文を並べて表示しながら再生します。字幕一覧の検索、一行ごとのループ再生、続きからの再生にも対応。ライブラリは普通のファイルが入ったフォルダーです。画面は英語、簡体字中国語、繁体字中国語、日本語、韓国語に対応。MyGo から NSGo に移植されました。",
+		"ko": "외국어 영상으로 언어를 배우는 데스크톱 앱으로, Go로 작성했고 각 플랫폼의 네이티브 뷰를 NSGo로 그립니다. YouTube나 Bilibili 링크를 붙여 넣거나 영상 파일을 끌어 놓으면 yt-dlp로 내려받고, whisper.cpp로 내 컴퓨터에서 음성을 받아 적고, OpenAI 호환 모델로 한 줄씩 번역해 원문과 번역을 함께 띄우며 재생합니다. 자막 목록 검색, 한 줄 반복, 이어 보기도 지원합니다. 라이브러리는 일반 파일이 든 폴더입니다. 인터페이스는 영어, 중국어 간체, 중국어 번체, 일본어, 한국어를 지원합니다. MyGo에서 NSGo로 옮겼습니다."
+	},
+	"icon": {
+		"file": "kando.webp"
+	},
+	"screenshot": "kando.webp",
+	"added": "2026-11-15T03:39:09Z"
+}
