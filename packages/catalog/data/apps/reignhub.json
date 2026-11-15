@@ -1,0 +1,41 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "reignhub",
+	"name": "ReignHub",
+	"author": "monkeyWie",
+	"kind": "go",
+	"group": "agents",
+	"platforms": [
+		"mac",
+		"win",
+		"linux",
+		"ios",
+		"android",
+		"web"
+	],
+	"url": "https://reignhub.app",
+	"repo": "monkeyWie/reignhub",
+	"summary": {
+		"en": "Controls AI coding agents on your own computers from desktop, phone or browser over encrypted P2P links.",
+		"zh-CN": "通过加密 P2P，在桌面、手机或浏览器上远程控制自己电脑上的 AI agent。",
+		"zh-TW": "透過加密 P2P，在桌面、手機或瀏覽器上遠端控制自己電腦上的 AI agent。",
+		"ja": "自分の PC で動く AI コーディングエージェントを、デスクトップ、スマホ、ブラウザから暗号化 P2P で操作。",
+		"ko": "내 컴퓨터의 AI 코딩 에이전트를 데스크톱, 휴대폰, 브라우저에서 암호화된 P2P로 원격 제어합니다."
+	},
+	"description": {
+		"en": "ReignHub controls the AI agents on your own computers, such as Codex App and CLI, from a desktop, phone or browser. Traffic is end-to-end encrypted and goes direct over WebRTC or TCP, with a relay as fallback; the service can be self-hosted on Cloudflare. The controller clients are written in Go with NSGo; the website and relay run as a Cloudflare Worker.",
+		"zh-CN": "在桌面、手机或浏览器上控制自己电脑上运行的 AI agent，例如 Codex App 和 CLI。通信端到端加密，优先通过 WebRTC 或 TCP 直连，连不上时改走中继；服务可自行部署在 Cloudflare 上。控制端用 NSGo 以 Go 编写，网站和中继则运行在 Cloudflare Worker 上。",
+		"zh-TW": "在桌面、手機或瀏覽器上控制自己電腦上執行的 AI agent，例如 Codex App 和 CLI。通訊採端對端加密，優先透過 WebRTC 或 TCP 直連，連不上時改走中繼；服務可自行架設在 Cloudflare 上。控制端以 NSGo 用 Go 撰寫，網站和中繼則執行於 Cloudflare Worker。",
+		"ja": "自分の PC で動く Codex App や CLI などの AI エージェントを、デスクトップ、スマートフォン、ブラウザから操作できます。通信はエンドツーエンドで暗号化され、WebRTC や TCP での直接接続を優先し、つながらない場合は中継を使います。サービスは Cloudflare にセルフホストできます。操作用クライアントは NSGo を使って Go で書かれ、Web サイトと中継は Cloudflare Worker で動きます。",
+		"ko": "내 컴퓨터에서 실행되는 Codex App, CLI 같은 AI 에이전트를 데스크톱, 휴대폰, 브라우저에서 제어합니다. 통신은 종단 간 암호화되며 WebRTC나 TCP 직접 연결을 우선하고, 실패하면 릴레이를 거칩니다. 서비스는 Cloudflare에 직접 호스팅할 수 있습니다. 제어 클라이언트는 NSGo로 Go에서 작성했고, 웹사이트와 릴레이는 Cloudflare Worker에서 실행됩니다."
+	},
+	"icon": {
+		"file": "reignhub.webp"
+	},
+	"provisional": [
+		"icon",
+		"screenshot"
+	],
+	"screenshot": "reignhub.webp",
+	"added": "2026-11-15T02:28:27Z"
+}
