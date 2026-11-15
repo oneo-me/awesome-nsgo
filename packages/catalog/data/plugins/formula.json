@@ -1,0 +1,23 @@
+{
+	"$schema": "../schema/plugin.schema.json",
+	"slug": "formula",
+	"name": "Formulas",
+	"mark": "Fx",
+	"official": true,
+	"surface": "go",
+	"package": "base/formula",
+	"tags": [
+		"math",
+		"tex",
+		"typst"
+	],
+	"doc": "text#documents",
+	"summary": {
+		"en": "Typesets TeX and Typst formulas with Untie and the New Computer Modern Math font, drawn on a canvas: inline in a text view's text, in its size, color and baseline, or as a block of their own, read aloud in the app's language and copied as TeX. Apps opt in, as it adds about 6.5 MB to a desktop app.",
+		"zh-CN": "用 Untie 和 New Computer Modern Math 字体排版 TeX 和 Typst 公式，绘制在画布上：可以嵌在文本视图的文字里，跟随文字的字号、颜色和基线，也可以单独成块；会用应用的语言朗读，复制时得到 TeX。由应用自行启用，因为它会让桌面应用增加约 6.5 MB。",
+		"zh-TW": "以 Untie 和 New Computer Modern Math 字型排版 TeX 與 Typst 公式，繪製在畫布上：可以嵌在文字檢視的文字中，跟隨文字的字級、顏色與基線，也可以獨立成區塊；會以應用程式的語言朗讀，複製時得到 TeX。由應用程式自行啟用，因為它會讓桌面應用程式增加約 6.5 MB。",
+		"ja": "Untie と New Computer Modern Math フォントで TeX と Typst の数式を組版し、キャンバスに描きます。テキストビューの文中に文字のサイズ・色・ベースラインに合わせて置くことも、独立したブロックにすることもでき、アプリの言語で読み上げられ、コピーすると TeX になります。デスクトップアプリが約 6.5 MB 増えるため、アプリが自分で有効にします。",
+		"ko": "Untie와 New Computer Modern Math 글꼴로 TeX와 Typst 수식을 조판해 캔버스에 그립니다. 텍스트 뷰의 글 안에 글자 크기·색·기준선에 맞춰 넣거나 독립된 블록으로 보여 줄 수 있고, 앱의 언어로 읽어 주며 복사하면 TeX가 됩니다. 데스크톱 앱이 약 6.5 MB 커지므로 앱이 직접 켭니다."
+	},
+	"added": "2026-11-15T04:10:50Z"
+}
