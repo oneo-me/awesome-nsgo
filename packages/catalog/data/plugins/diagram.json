@@ -1,0 +1,22 @@
+{
+	"$schema": "../schema/plugin.schema.json",
+	"slug": "diagram",
+	"name": "Diagrams",
+	"mark": "Dg",
+	"official": true,
+	"surface": "go",
+	"package": "base/diagram",
+	"tags": [
+		"mermaid",
+		"diagrams"
+	],
+	"doc": "text#documents",
+	"summary": {
+		"en": "Draws Mermaid diagrams natively with limu, a Go port of Obsidian's Pele: flowcharts, sequence, class, state and entity relationship diagrams, Gantt charts, pies, mind maps, timelines and more, on a canvas in the platform's font, light or dark as the app shows. A text view's mermaid code blocks draw so once the app passes RenderDiagram, and copy as their source.",
+		"zh-CN": "用 limu（Obsidian 的 Pele 的 Go 移植）原生绘制 Mermaid 图表：流程图、时序图、类图、状态图、实体关系图、甘特图、饼图、思维导图、时间线等，画在画布上，使用平台字体，并随应用的浅色或深色外观切换。应用传入 RenderDiagram 后，文本视图里的 mermaid 代码块会画成图表，复制时得到源码。",
+		"zh-TW": "以 limu（Obsidian 的 Pele 的 Go 移植）原生繪製 Mermaid 圖表：流程圖、循序圖、類別圖、狀態圖、實體關係圖、甘特圖、圓餅圖、心智圖、時間軸等，畫在畫布上，使用平台字型，並隨應用程式的淺色或深色外觀切換。應用程式傳入 RenderDiagram 後，文字檢視中的 mermaid 程式碼區塊會畫成圖表，複製時得到原始碼。",
+		"ja": "Obsidian の Pele を Go に移植した limu で Mermaid の図をネイティブに描きます。フローチャート、シーケンス図、クラス図、状態図、ER 図、ガントチャート、円グラフ、マインドマップ、タイムラインなどを、プラットフォームのフォントでキャンバスに描き、アプリのライト／ダークに合わせます。アプリが RenderDiagram を渡すと、テキストビューの mermaid コードブロックが図になり、コピーするとソースになります。",
+		"ko": "Obsidian의 Pele를 Go로 옮긴 limu로 Mermaid 다이어그램을 네이티브로 그립니다. 플로차트, 시퀀스·클래스·상태·ER 다이어그램, 간트 차트, 파이, 마인드맵, 타임라인 등을 플랫폼 글꼴로 캔버스에 그리고, 앱의 라이트·다크 모드를 따릅니다. 앱이 RenderDiagram을 넘기면 텍스트 뷰의 mermaid 코드 블록이 다이어그램으로 그려지고, 복사하면 소스가 됩니다."
+	},
+	"added": "2026-11-15T05:40:07Z"
+}
