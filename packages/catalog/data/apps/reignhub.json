@@ -32,10 +32,6 @@
 	"icon": {
 		"file": "reignhub.webp"
 	},
-	"provisional": [
-		"icon",
-		"screenshot"
-	],
 	"screenshot": "reignhub.webp",
 	"added": "2026-11-15T02:28:27Z"
 }
