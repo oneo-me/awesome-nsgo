@@ -1,0 +1,32 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "claude-desktop-profiles",
+	"name": "Claude Desktop Profiles",
+	"author": "gopkg-dev",
+	"kind": "go",
+	"group": "agents",
+	"platforms": [
+		"mac"
+	],
+	"url": "https://github.com/gopkg-dev/claude-desktop-profiles",
+	"repo": "gopkg-dev/claude-desktop-profiles",
+	"summary": {
+		"en": "Menu bar app for Mac that shows usage of several Claude Desktop accounts and switches between them.",
+		"zh-CN": "Mac 菜单栏应用，查看多个 Claude Desktop 账号的用量并一键切换。",
+		"zh-TW": "Mac 選單列應用程式，查看多個 Claude Desktop 帳號的用量並一鍵切換。",
+		"ja": "複数の Claude Desktop アカウントの利用状況を確認し、ワンクリックで切り替える Mac のメニューバーアプリ。",
+		"ko": "여러 Claude Desktop 계정의 사용량을 보고 클릭 한 번에 전환하는 Mac 메뉴 막대 앱."
+	},
+	"description": {
+		"en": "A menu bar app for people with more than one Claude Desktop account: it shows each account's plan and its 5-hour, weekly and per-model limits, switches accounts in one click by quitting Claude Desktop and swapping its data, and shares local Claude Code sessions across accounts. It needs an Apple Silicon Mac and Claude Desktop. Written in Go with NSGo.",
+		"zh-CN": "面向使用多个 Claude Desktop 账号的用户的菜单栏应用：显示每个账号的套餐及 5 小时、每周和按模型的用量限额，一键切换账号（退出 Claude Desktop 并替换其数据），并在各账号间共享本地 Claude Code 会话。需要 Apple Silicon 的 Mac 和 Claude Desktop。用 NSGo 以 Go 编写。",
+		"zh-TW": "為使用多個 Claude Desktop 帳號的使用者打造的選單列應用程式：顯示每個帳號的方案及 5 小時、每週和各模型的用量上限，一鍵切換帳號（結束 Claude Desktop 並替換其資料），並在各帳號間共享本機 Claude Code 會話。需要 Apple Silicon 的 Mac 和 Claude Desktop。以 NSGo 用 Go 撰寫。",
+		"ja": "複数の Claude Desktop アカウントを使う人向けのメニューバーアプリです。各アカウントのプランと、5 時間・週・モデル別の利用上限を表示し、Claude Desktop を終了してデータを入れ替えることでワンクリックで切り替えます。ローカルの Claude Code セッションはアカウント間で共有できます。Apple Silicon の Mac と Claude Desktop が必要です。NSGo を使って Go で書かれています。",
+		"ko": "여러 Claude Desktop 계정을 쓰는 사람을 위한 메뉴 막대 앱입니다. 계정별 요금제와 5시간, 주간, 모델별 사용 한도를 보여 주고, Claude Desktop을 종료한 뒤 데이터를 바꿔 넣는 방식으로 클릭 한 번에 계정을 전환합니다. 로컬 Claude Code 세션은 계정 간에 공유됩니다. Apple Silicon Mac과 Claude Desktop이 필요하며, NSGo로 Go에서 작성했습니다."
+	},
+	"icon": {
+		"file": "claude-desktop-profiles.webp"
+	},
+	"screenshot": "claude-desktop-profiles.webp",
+	"added": "2026-11-15T02:28:27Z"
+}
