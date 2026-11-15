@@ -1,0 +1,22 @@
+{
+	"$schema": "../schema/plugin.schema.json",
+	"slug": "updater",
+	"name": "Updater",
+	"mark": "Up",
+	"official": true,
+	"surface": "go",
+	"package": "updater",
+	"tags": [
+		"updates",
+		"sparkle"
+	],
+	"doc": "building#updates",
+	"summary": {
+		"en": "Keeps an app up to date the way its platform does: Sparkle on macOS and WinSparkle on Windows, which nsgo build bundles from nsgo.yaml, read the app's appcast, verify a newer release's EdDSA signature and install it; Linux and Android install the same appcast's package once the user confirms, and iOS asks the App Store. Store builds carry no updater.",
+		"zh-CN": "按各平台自己的方式让应用保持最新：macOS 用 Sparkle、Windows 用 WinSparkle，由 nsgo build 按 nsgo.yaml 打包进去，读取应用的 appcast，校验新版本的 EdDSA 签名后安装；Linux 和 Android 在用户确认后安装同一份 appcast 里的安装包，iOS 则去 App Store 查询。商店版本不带更新器。",
+		"zh-TW": "依各平台自己的方式讓應用程式保持最新：macOS 用 Sparkle、Windows 用 WinSparkle，由 nsgo build 依 nsgo.yaml 打包進去，讀取應用程式的 appcast，驗證新版本的 EdDSA 簽章後安裝；Linux 和 Android 在使用者確認後安裝同一份 appcast 裡的安裝套件，iOS 則向 App Store 查詢。商店版本不含更新器。",
+		"ja": "各プラットフォームのやり方でアプリを最新に保ちます。macOS では Sparkle、Windows では WinSparkle を nsgo build が nsgo.yaml に従って同梱し、アプリの appcast を読んで新しいリリースの EdDSA 署名を確かめてからインストールします。Linux と Android はユーザーの確認後に同じ appcast のパッケージを入れ、iOS は App Store に問い合わせます。ストア版には更新機能を含めません。",
+		"ko": "각 플랫폼의 방식대로 앱을 최신 상태로 유지합니다. macOS에서는 Sparkle, Windows에서는 WinSparkle을 nsgo build가 nsgo.yaml에 따라 함께 묶고, 앱의 appcast를 읽어 새 릴리스의 EdDSA 서명을 확인한 뒤 설치합니다. Linux와 Android는 사용자가 확인하면 같은 appcast의 패키지를 설치하고, iOS는 App Store에 묻습니다. 스토어 빌드에는 업데이터가 들어가지 않습니다."
+	},
+	"added": "2026-11-15T04:39:27Z"
+}

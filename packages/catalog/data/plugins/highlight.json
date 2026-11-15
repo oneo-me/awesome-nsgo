@@ -1,0 +1,21 @@
+{
+	"$schema": "../schema/plugin.schema.json",
+	"slug": "highlight",
+	"name": "Code highlighting",
+	"mark": "Hl",
+	"official": true,
+	"surface": "go",
+	"package": "base/textview/highlight",
+	"tags": [
+		"code",
+		"highlighting"
+	],
+	"summary": {
+		"en": "Colors a text view's code blocks with chroma's lexers and NSH's reading palette, light and dark, lexing off the engine goroutine unless a block is small. A package of its own, as chroma's lexers add about 4.5 MB to an app.",
+		"zh-CN": "用 chroma 的词法分析器和 NSH 的阅读配色（浅色和深色）给文本视图的代码块上色；除非代码块很小，否则词法分析不在引擎 goroutine 上进行。它单独成包，因为 chroma 的词法分析器会让应用增加约 4.5 MB。",
+		"zh-TW": "以 chroma 的詞法分析器和 NSH 的閱讀配色（淺色與深色）為文字檢視的程式碼區塊上色；除非區塊很小，詞法分析不在引擎 goroutine 上進行。它獨立成套件，因為 chroma 的詞法分析器會讓應用程式增加約 4.5 MB。",
+		"ja": "chroma の字句解析器と NSH の読みやすい配色（ライトとダーク）で、テキストビューのコードブロックに色を付けます。ブロックが小さいときを除き、字句解析はエンジンの goroutine の外で行います。chroma の字句解析器でアプリが約 4.5 MB 増えるため、独立したパッケージです。",
+		"ko": "chroma의 렉서와 NSH의 읽기용 색 구성(라이트와 다크)으로 텍스트 뷰의 코드 블록에 색을 입힙니다. 블록이 작지 않으면 렉싱은 엔진 goroutine 밖에서 합니다. chroma의 렉서가 앱을 약 4.5 MB 키우기 때문에 별도 패키지입니다."
+	},
+	"added": "2026-11-15T04:39:27Z"
+}
