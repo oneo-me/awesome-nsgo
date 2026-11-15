@@ -1,0 +1,23 @@
+{
+	"$schema": "../schema/ai.schema.json",
+	"slug": "nsgo-mcp",
+	"name": "nsgo mcp",
+	"author": "oneo-me",
+	"url": "https://nsgo.dev/docs/debugging/#agents",
+	"repo": "nsgo-dev/nsgo",
+	"type": "mcp",
+	"install": "claude mcp add nsgo -- go tool nsgo mcp",
+	"tags": [
+		"mcp",
+		"automation",
+		"official"
+	],
+	"summary": {
+		"en": "NSGo's own MCP server: it runs your app with nsgo dev -automation and lets an AI agent use it as a person does, listing its windows and views, pressing, typing, scrolling and dragging, choosing menus, answering alerts, waiting and taking screenshots, with the app's logs and a rebuild on request. macOS so far.",
+		"zh-CN": "NSGo 自带的 MCP 服务器：它用 nsgo dev -automation 运行你的应用，让 AI 智能体像人一样使用它：列出窗口和视图，点击、输入、滚动、拖动，选择菜单、回应弹窗、等待和截图，还能按需读取应用日志、重新构建。目前支持 macOS。",
+		"zh-TW": "NSGo 內建的 MCP 伺服器：它以 nsgo dev -automation 執行你的應用程式，讓 AI 代理像人一樣使用它：列出視窗與檢視，點按、輸入、捲動、拖曳，選擇選單、回應警示、等待與截圖，也能依需要讀取應用程式記錄、重新建置。目前支援 macOS。",
+		"ja": "NSGo 自身の MCP サーバー。nsgo dev -automation でアプリを動かし、AI エージェントが人と同じように操作できるようにします。ウィンドウとビューの一覧、押す・入力・スクロール・ドラッグ、メニューの選択、アラートへの応答、待機、スクリーンショットに加え、アプリのログの取得や再ビルドもできます。現在は macOS のみ。",
+		"ko": "NSGo 자체 MCP 서버입니다. nsgo dev -automation으로 앱을 실행하고, AI 에이전트가 사람처럼 앱을 쓸 수 있게 합니다. 창과 뷰 목록, 누르기·입력·스크롤·드래그, 메뉴 선택, 알림 응답, 기다리기, 스크린숏에 더해 앱 로그 읽기와 다시 빌드하기도 할 수 있습니다. 현재는 macOS만 지원합니다."
+	},
+	"added": "2026-11-15T04:10:50Z"
+}
