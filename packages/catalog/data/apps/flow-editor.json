@@ -4,11 +4,15 @@
 	"name": "Flow Editor",
 	"author": "oneo-me",
 	"kind": "go",
-	"platforms": ["mac", "win", "linux"],
+	"platforms": [
+		"mac",
+		"win",
+		"linux"
+	],
 	"category": "DesignApplication",
 	"group": "dev",
-	"url": "https://github.com/oneo-me/nsgo-flow",
-	"repo": "oneo-me/nsgo-flow",
+	"url": "https://github.com/oneo-me/nsgo-scenra",
+	"repo": "oneo-me/nsgo-scenra",
 	"summary": {
 		"en": "Design an app's screens and flow charts by talking with an AI assistant that draws them as you agree.",
 		"zh-CN": "和 AI 助手对话来设计应用的界面与流程图，助手会按你们商定的结果画出来。",
