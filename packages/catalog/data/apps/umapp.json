@@ -1,0 +1,33 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "umapp",
+	"name": "Umapp",
+	"author": "oneo-me",
+	"kind": "go",
+	"group": "dev",
+	"platforms": [
+		"mac",
+		"ios"
+	],
+	"url": "https://oneo-me.github.io/nsgo-umapp/",
+	"repo": "oneo-me/nsgo-umapp",
+	"summary": {
+		"en": "Website visitors, views and top pages from Umami in the macOS menu bar and on iPhone.",
+		"zh-CN": "在 macOS 菜单栏和 iPhone 上查看 Umami 网站访客与浏览量。",
+		"zh-TW": "在 macOS 選單列和 iPhone 上查看 Umami 網站訪客與瀏覽量。",
+		"ja": "macOS のメニューバーと iPhone で、Umami のサイトの訪問者数、閲覧数、人気ページを確認。",
+		"ko": "macOS 메뉴 막대와 iPhone에서 Umami 웹사이트의 방문자, 조회수, 인기 페이지를 봅니다."
+	},
+	"description": {
+		"en": "A native app for macOS, in the menu bar and a window, and for iPhone, that shows your websites and how many people are on them now, with visitors and views over 24 hours to 90 days and, for each website, bounce rate, a chart and its top pages, referrers and countries. It connects to Umami Cloud, a self-hosted Umami, or Umapp's own server, which you deploy to Cloudflare with one command. The app is written in Go with NSGo; the server is a separate Cloudflare Worker with D1, and the iPhone app builds from source.",
+		"zh-CN": "面向 macOS 和 iPhone 的原生应用，在 macOS 上以菜单栏面板和窗口呈现，显示你的网站与当前在线人数、24 小时到 90 天的访客和浏览量，单个网站还能看跳出率、图表以及热门页面、来源和国家。可连接 Umami Cloud、自建 Umami，或用一条命令部署到 Cloudflare 的 Umapp 自有服务器。应用用 NSGo 以 Go 编写；服务器是另行实现的 Cloudflare Worker，使用 D1；iPhone 版需从源码构建。",
+		"zh-TW": "適用於 macOS 和 iPhone 的原生應用程式，在 macOS 上以選單列面板和視窗呈現，顯示你的網站與目前線上人數、24 小時到 90 天的訪客和瀏覽量，單一網站還能查看跳出率、圖表以及熱門頁面、來源和國家。可連接 Umami Cloud、自架 Umami，或以一道指令部署到 Cloudflare 的 Umapp 自有伺服器。應用程式以 NSGo 用 Go 撰寫；伺服器是另行實作的 Cloudflare Worker，使用 D1；iPhone 版需從原始碼建置。",
+		"ja": "macOS（メニューバーとウィンドウ）と iPhone 向けのネイティブアプリで、自分のサイトと今のオンライン人数、24 時間から 90 日までの訪問者数と閲覧数を表示し、サイトごとに直帰率、グラフ、人気ページ、参照元、国も確認できます。接続先は Umami Cloud、セルフホストの Umami、またはコマンド一つで Cloudflare にデプロイできる Umapp 独自のサーバーです。アプリは NSGo を使って Go で書かれ、サーバーは D1 を使う別の Cloudflare Worker です。iPhone 版はソースからビルドします。",
+		"ko": "macOS(메뉴 막대와 창)와 iPhone용 네이티브 앱으로, 내 웹사이트와 지금 접속 중인 인원, 24시간부터 90일까지의 방문자와 조회수를 보여 주고 웹사이트별로 이탈률, 차트, 인기 페이지, 유입 경로, 국가를 확인할 수 있습니다. Umami Cloud, 직접 호스팅한 Umami, 또는 명령 하나로 Cloudflare에 배포하는 Umapp 자체 서버에 연결합니다. 앱은 NSGo로 Go에서 작성했고, 서버는 D1을 쓰는 별도의 Cloudflare Worker이며, iPhone 앱은 소스에서 빌드합니다."
+	},
+	"icon": {
+		"file": "umapp.webp"
+	},
+	"screenshot": "umapp.webp",
+	"added": "2026-11-17T02:28:32Z"
+}
