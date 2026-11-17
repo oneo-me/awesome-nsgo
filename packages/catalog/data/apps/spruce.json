@@ -1,0 +1,33 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "spruce",
+	"name": "Spruce",
+	"author": "yldm-tech",
+	"kind": "go",
+	"group": "system",
+	"platforms": [
+		"mac",
+		"win"
+	],
+	"url": "https://github.com/yldm-tech/spruce",
+	"repo": "yldm-tech/spruce",
+	"summary": {
+		"en": "Disk cleaner for macOS and Windows that explains what it would remove and whether it can be undone.",
+		"zh-CN": "macOS 和 Windows 磁盘清理工具，先说明删什么、为什么、能否撤销。",
+		"zh-TW": "macOS 與 Windows 磁碟清理工具，先說明刪什麼、為什麼、能否復原。",
+		"ja": "macOS と Windows 向けのディスククリーナー。何を消すか、理由、元に戻せるかを先に示す。",
+		"ko": "macOS·Windows 디스크 정리 앱. 무엇을 왜 지우고 되돌릴 수 있는지 먼저 알려 줍니다."
+	},
+	"description": {
+		"en": "Spruce is a desktop disk cleaner for macOS and Windows, written in Go with NSGo. It checks the disk in the background and offers recommendations, each saying why and whether it can be undone; projects with uncommitted Git changes are never cleaned. It also uninstalls apps, maps disk space and its growth, runs maintenance tasks, monitors system health and has a command line. The interface is in Simplified Chinese only, and on Windows there is no undo, tray icon or automatic cleaning yet.",
+		"zh-CN": "Spruce 是 macOS 和 Windows 上的磁盘清理工具，用 NSGo 以 Go 编写。它在后台检查磁盘，给出一条条清理建议，说明原因以及能否撤销；有未提交 Git 改动的项目一律不清理。它还能卸载应用、显示磁盘空间占用及其增长、执行系统维护、监测系统状态，并提供命令行。界面只有简体中文；Windows 版暂不支持撤销、托盘图标和自动清理。",
+		"zh-TW": "Spruce 是 macOS 與 Windows 上的磁碟清理工具，以 NSGo 用 Go 撰寫。它在背景檢查磁碟，提出一條條清理建議，說明原因與能否復原；有未提交 Git 變更的專案一律不清理。它也能解除安裝應用程式、顯示磁碟空間占用及其成長、執行系統維護、監測系統狀態，並提供命令列。介面僅有簡體中文；Windows 版暫不支援復原、系統匣圖示和自動清理。",
+		"ja": "Spruce は macOS と Windows 向けのディスククリーナーで、NSGo を使って Go で書かれています。バックグラウンドでディスクを調べ、削除の理由と元に戻せるかどうかを添えたおすすめを示します。未コミットの Git 変更があるプロジェクトは消しません。アプリのアンインストール、容量の内訳と増え方の表示、メンテナンス、システムの状態監視、コマンドラインも備えます。画面は簡体字中国語のみで、Windows 版にはまだ取り消し、トレイアイコン、自動クリーンアップがありません。",
+		"ko": "Spruce는 macOS와 Windows용 디스크 정리 앱으로, NSGo로 Go에서 작성했습니다. 백그라운드에서 디스크를 확인하고, 지우는 이유와 되돌릴 수 있는지를 밝힌 추천 항목을 보여 줍니다. 커밋하지 않은 Git 변경이 있는 프로젝트는 정리하지 않습니다. 앱 제거, 디스크 공간 지도와 증가 추이, 유지 관리 작업, 시스템 상태 모니터링, 명령줄도 제공합니다. 인터페이스는 중국어 간체만 지원하며, Windows 버전에는 아직 실행 취소, 트레이 아이콘, 자동 정리가 없습니다."
+	},
+	"icon": {
+		"file": "spruce.webp"
+	},
+	"screenshot": "spruce.webp",
+	"added": "2026-11-17T02:28:32Z"
+}
