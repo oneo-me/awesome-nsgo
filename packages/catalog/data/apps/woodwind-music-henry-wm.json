@@ -1,0 +1,34 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "woodwind-music-henry-wm",
+	"name": "木听风音乐 · Wood & Wind Music",
+	"author": "henry-wm",
+	"kind": "go",
+	"group": "media",
+	"platforms": [
+		"mac",
+		"win",
+		"android"
+	],
+	"url": "https://github.com/henry-wm/woodwind-music",
+	"repo": "henry-wm/woodwind-music",
+	"summary": {
+		"en": "Plays local music and plugin music sources with synced lyrics and playlists, on desktop and Android.",
+		"zh-CN": "播放本地音乐与插件音乐源，支持同步歌词和歌单，适用于桌面和安卓。",
+		"zh-TW": "播放本機音樂與外掛音樂來源，支援同步歌詞和播放清單，適用於桌面與 Android。",
+		"ja": "ローカル音楽とプラグインの音楽ソースを再生。同期歌詞とプレイリスト対応、デスクトップと Android 向け。",
+		"ko": "로컬 음악과 플러그인 음악 소스 재생, 동기화 가사와 재생목록 지원. 데스크톱과 Android용."
+	},
+	"description": {
+		"en": "A music player ported from MyGo Music, written in Go with NSGo. It plays local music folders and can reach other music sources through MyGo Music-compatible JS/TS plugins, with synced lyrics highlighted word by word, playlists, favorites and the queue restored after a restart. On macOS and Windows it uses a desktop layout with a sidebar and player bar, with Windows support still experimental; on Android it has its own phone interface and keeps playing in the background or with the screen off.",
+		"zh-CN": "由 MyGo Music 移植而来的音乐播放器，用 NSGo 以 Go 编写。可播放本地音乐文件夹，也能通过兼容 MyGo Music 的 JS/TS 插件接入其他音乐源，支持逐字高亮的同步歌词、歌单、收藏，重启后恢复播放队列。macOS 与 Windows 使用带侧栏和播放条的桌面界面，其中 Windows 为实验性支持；Android 提供独立的手机界面，支持后台和熄屏播放。",
+		"zh-TW": "由 MyGo Music 移植而來的音樂播放器，以 NSGo 用 Go 撰寫。可播放本機音樂資料夾，也能透過相容 MyGo Music 的 JS/TS 外掛接入其他音樂來源，支援逐字標示的同步歌詞、播放清單、收藏，重新啟動後還原播放佇列。macOS 與 Windows 使用帶側欄和播放列的桌面介面，其中 Windows 為實驗性支援；Android 提供獨立的手機介面，支援背景與關閉螢幕播放。",
+		"ja": "MyGo Music から移植した音楽プレーヤーで、NSGo を使って Go で書かれています。ローカルの音楽フォルダーを再生でき、MyGo Music 互換の JS/TS プラグインでほかの音楽ソースにもつながります。一文字ずつハイライトされる同期歌詞、プレイリスト、お気に入り、再起動後のキュー復元に対応。macOS と Windows ではサイドバーと再生バーのあるデスクトップ画面を使い、Windows は試験的なサポートです。Android には専用のスマホ画面があり、バックグラウンドや画面オフでも再生を続けます。",
+		"ko": "MyGo Music에서 옮겨 온 음악 플레이어로, NSGo로 Go에서 작성했습니다. 로컬 음악 폴더를 재생하고, MyGo Music 호환 JS/TS 플러그인으로 다른 음악 소스에도 연결합니다. 글자 단위로 강조되는 동기화 가사, 재생목록, 즐겨찾기, 재시작 후 대기열 복원을 지원합니다. macOS와 Windows에서는 사이드바와 재생 바가 있는 데스크톱 화면을 쓰며 Windows는 실험적 지원입니다. Android에는 별도의 휴대폰 화면이 있고 백그라운드나 화면이 꺼진 상태에서도 계속 재생합니다."
+	},
+	"icon": {
+		"file": "woodwind-music-henry-wm.webp"
+	},
+	"screenshot": "woodwind-music-henry-wm.webp",
+	"added": "2026-11-17T02:28:32Z"
+}
